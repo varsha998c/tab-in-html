@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: normal;
+    text-decoration: none;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+ol,
+ul {
+    list-style: none;
+}
+del {
+    text-decoration: line-through;
+}
+body {
+    font-family: "../fonts/poppinsregular";
+    font-size: 17px;
+    color: #000;
+    overflow-x: hidden;
+    min-width: 320px;
+    font-weight: 500;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+input,
+textarea,
+select {
+    font-family: "../fonts/poppinsregular";
+    font-weight: 500;
+}
+a {
+    color: #000;
+    cursor: pointer;
+}
+img {
+    display: block;
+    width: 100%;
+}
+p {
+    line-height: 1.3em;
+    font-size: 15px;
+    font-family: "montserratregular";
+    font-weight: 500;
+    color: #999;
+}
+
+.hidden {
+    display: none;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1350px;
+}
+
+.title-box {
+    margin-bottom: 20px;
+}
+.title-box h4 {
+    font-size: 25px;
+    font-family: "montserratsemibold";
+}
+.button a {
+    color: #fff;
+    background: blue;
+    padding: 10px;
+    border-radius: 35px;
+}
+
+#main-gallery {
+    padding: 70px 0px;
+    background: #f9f9f9;
+}
+
+#main-gallery section.wrapper {
+}
+
+#main-gallery section.wrapper section.top-gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#main-gallery section.wrapper section.top-gallery div.left-gallery {
+    width: 40%;
+}
+
+#main-gallery section.wrapper section.top-gallery div.left-gallery div.title-box {
+    margin-bottom: 0px;
+}
+
+#main-gallery section.wrapper section.top-gallery div.left-gallery div.title-box h4 {
+}
+
+#main-gallery section.wrapper section.top-gallery div.right-gallery {
+    width: 60%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background: #f1f9f1;
+}
+
+#main-gallery section.wrapper section.top-gallery div.right-gallery div.year{
+    width: 100%;
+    font-size: 17px;
+    font-family: "montserratsemibold";
+    border-right: 2px solid #e1e1e1;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#main-gallery section.wrapper section.top-gallery div.right-gallery div.active {
+    background: #5bba64;
+    border-radius: 6px;
+}
+#main-gallery section.wrapper section.top-gallery div.right-gallery div:hover {
+    background: #5bba64;
+    border-radius: 6px;
+    /* border: 1px transparent solid; */
+}
+
+#main-gallery section.wrapper #bottom-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#main-gallery section.wrapper #bottom-gallery div.main-left {
+    display: flex;
+    width: 49%;
+}
+
+#main-gallery section.wrapper #bottom-gallery div.main-left img {
+}
+
+#main-gallery section.wrapper #bottom-gallery div.main-right {
+    width: 49%;
+}
+
+#main-gallery section.wrapper #bottom-gallery div.main-right ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    grid-gap: 15px;
+}
+
+#main-gallery section.wrapper #bottom-gallery div.main-right ul li {
+}
+
+#main-gallery section.wrapper #bottom-gallery div.main-right ul li img {
+}
+/* gallaery 1 */
+
+#main-gallery section.wrapper #bottom-gallery1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    display: none;
+}
+
+#main-gallery section.wrapper #bottom-gallery1 div.main-left {
+    display: flex;
+    width: 49%;
+}
+
+#main-gallery section.wrapper #bottom-gallery1 div.main-left img {
+}
+
+#main-gallery section.wrapper #bottom-gallery1 div.main-right {
+    width: 49%;
+}
+
+#main-gallery section.wrapper #bottom-gallery1 div.main-right ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    grid-gap: 15px;
+}
+
+#main-gallery section.wrapper #bottom-gallery1 div.main-right ul li {
+}
+
+#main-gallery section.wrapper #bottom-gallery1 div.main-right ul li img {
+}
+
+/*  */
+#main-gallery section.wrapper #bottom-gallery2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    display: none;
+}
+#main-gallery section.wrapper section.top-gallery div.right-gallery div.active #bottom-gallery {
+    display: flex !important;
+}
+#main-gallery section.wrapper section.top-gallery div.right-gallery div.active #bottom-gallery1{
+    display: flex !important;
+}
+#main-gallery section.wrapper section.top-gallery div.right-gallery div.active #bottom-gallery2{
+
+    display: flex !important;
+}
+#main-gallery section.wrapper section.top-gallery div.right-gallery div.active #bottom-gallery3{
+
+    display: flex !important;
+}
+#main-gallery section.wrapper #bottom-gallery2 div.main-left {
+    display: flex;
+    width: 49%;
+}
+
+#main-gallery section.wrapper #bottom-gallery2 div.main-left img {
+}
+
+#main-gallery section.wrapper #bottom-gallery2 div.main-right {
+    width: 49%;
+}
+
+#main-gallery section.wrapper #bottom-gallery2 div.main-right ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    grid-gap: 15px;
+}
+
+#main-gallery section.wrapper #bottom-gallery2 div.main-right ul li {
+}
+
+#main-gallery section.wrapper #bottom-gallery2 div.main-right ul li img {
+}
+
+/*  */
+#main-gallery section.wrapper #bottom-gallery3 {
+   display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    display: none;
+}
+
+#main-gallery section.wrapper #bottom-gallery3 div.main-left {
+    display: flex;
+    width: 49%;
+}
+
+#main-gallery section.wrapper #bottom-gallery3 div.main-left img {
+}
+
+#main-gallery section.wrapper #bottom-gallery3 div.main-right {
+    width: 49%;
+}
+
+#main-gallery section.wrapper #bottom-gallery3 div.main-right ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    grid-gap: 15px;
+}
+
+#main-gallery section.wrapper #bottom-gallery3 div.main-right ul li {
+}
+
+#main-gallery section.wrapper #bottom-gallery3 div.main-right ul li img {
+}
